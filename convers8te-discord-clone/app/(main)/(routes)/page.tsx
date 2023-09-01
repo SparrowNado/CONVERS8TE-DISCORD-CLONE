@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import { UserButton } from "@clerk/nextjs/app-beta";
 
 
 
@@ -9,9 +10,9 @@ export default function Home() {
 
     <div className="flex flex-col">
 
-
-
-   Protected Route
+    
+  <UserButton afterSignOutUrl="/"/>
+   
 
    
    </div>
