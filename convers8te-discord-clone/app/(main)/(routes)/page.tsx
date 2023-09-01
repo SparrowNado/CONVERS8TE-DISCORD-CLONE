@@ -13,7 +13,7 @@ export default function Home() {
     
   <UserButton afterSignOutUrl="/"/>
    
-
+    This page is protected Bro
    
    </div>
   )
