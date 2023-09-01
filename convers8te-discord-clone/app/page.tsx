@@ -1,9 +1,10 @@
-import Image from 'next/image'
+
 
 export default function Home() {
   return (
 
-    //
-   <p className='text-3xl'>Hello World</p>
+    //text-3xl makes the text larger while font-bold makes it bold
+
+   <p className='text-3xl font-bold text-indigo-500'>Hello World</p>
   )
 }
