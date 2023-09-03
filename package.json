@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "next-themes": "^0.2.1"
+  },
+  "devDependencies": {
+    "prisma": "^5.2.0"
   }
 }
